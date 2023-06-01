@@ -1,0 +1,125 @@
+footer {
+    margin-top: 48px;
+    background-color: #A90A2B;
+}
+
+footer .container {
+    padding-block: 70px 40px;
+}
+
+/* footer list atas */
+footer .footer-foot:nth-child(1) {
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+footer .footer-foot:nth-child(1) .footer-item {
+    width: 25%;
+}
+
+/* footer list bawah */
+
+
+footer .footer-foot:nth-child(2) .footer-item {
+    width: 40%;
+}
+
+footer .footer-foot:nth-child(2) {
+    justify-content: space-between;
+}
+
+/* footer list bawah item 2 */
+.footer-foot:nth-child(2) .footer-item:nth-child(2) {
+    width: 20%;
+}
+
+.footer-foot:nth-child(2) .footer-item:nth-child(2) img {
+    width: 50px;
+}
+
+
+
+/* footer list bawah last item */
+.footer-foot:nth-child(2) .footer-item:last-child ul {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-foot:nth-child(2) .footer-item:last-child ul li {
+    padding-left: 8px;
+}
+
+/*  */
+
+footer .footer-foot .footer-item h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFBA00;
+}
+
+footer .footer-foot .footer-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-foot .footer-item ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-foot .footer-item ul li a:hover {
+    border-bottom: 1px solid white;
+    filter: brightness(10%);
+}
+
+@media (max-width:992px) {
+    footer .footer-foot:nth-child(1) {
+        gap: 5%;
+    }
+}
+
+@media (max-width:767px) {
+    footer .footer-foot:nth-child(1) .footer-item {
+        width: 100%;
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
+
+    .footer-foot:nth-child(2) .footer-item {
+        text-align: center;
+    }
+
+    footer .footer-foot .footer-item:nth-child(1) {
+        order: 1;
+        margin-bottom: 0;
+    }
+
+
+    footer .footer-foot .footer-item:nth-child(2) {
+        order: -1;
+    }
+
+    footer .footer-foot:nth-child(2) .footer-item {
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    footer .footer-foot:nth-child(2) .footer-item:nth-child(2) {
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer .footer-foot:nth-child(2) .footer-item:last-child ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+}
+
+@media (max-width:992px) {}

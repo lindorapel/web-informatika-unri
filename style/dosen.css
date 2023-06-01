@@ -1,0 +1,95 @@
+main .container .single-post {
+    padding-top: 100px;
+}
+
+main .jumbotron {
+    width: 100%;
+    height: 65vh;
+    background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.7)), url('../Asset/sejarah/loby-teknik.jpg');
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+main .container .content .text img {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+
+main .container .single-post {
+    padding-block: 100px 40px;
+}
+
+.single-post .post-heading>h1 {
+    color: #A90A2B;
+}
+
+.single-post .post-heading>h1::after {
+    content: "";
+    display: block;
+    margin-left: -40px;
+    border-bottom: 4px solid #FDCB2C;
+    width: 12%;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.single-post .text .daftar-dosen {
+    row-gap: 40px;
+}
+
+.single-post .text .daftar-dosen .card {
+    width: 100%;
+    border-radius: 0;
+    border-color: #a90a2a1c;
+    box-shadow: 0px 0px 10px #a90a2a1c;
+    border-width: 0.1px;
+}
+
+.single-post .text .daftar-dosen .card img {
+    border-radius: 50%;
+    width: 50%;
+    margin-block: 8px 24px;
+    object-fit: cover;
+}
+
+.single-post .text .daftar-dosen .card p {
+    font-size: 14px;
+}
+
+.single-post .text .daftar-dosen .card h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-post .text .daftar-dosen .card h6 {
+    font-size: 14px;
+    margin-block: 28px 8px;
+}
+
+.single-post .text .daftar-dosen .card ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.daftar-dosen .card .fa-link {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #A0ADAF;
+}
+
+.daftar-dosen .card .fa-link:hover {
+    color: #161E2C;
+}
+
+.daftar-dosen .card .card-body>a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .card {
+        width: 100%;
+    }
+}

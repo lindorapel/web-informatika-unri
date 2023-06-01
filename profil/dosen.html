@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/navigasi.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/profil.css">
+    <link rel="stylesheet" href="/style/dosen.css">
+    <script src="https://kit.fontawesome.com/835515978f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        @media (min-width:1200px) {
+            .sejarah-content .text p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg py-0">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/asset/logo unri.png" alt="Bootstrap"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" style="pointer-events: auto! important;
+                                cursor: pointer! important;" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/profil/sejarah.html">Sejarah</a></li>
+                                <li><a class="dropdown-item" href="/profil/visi-dan-misi.html">Visi dan Misi</a></li>
+                                <li><a class="dropdown-item" href="/profil/tujuan.html">Tujuan</a></li>
+                                <li><a class="dropdown-item" href="/profil/sasaran.html">Sasaran</a></li>
+                                <li><a class="dropdown-item" href="/profil/strategi.html">Strategi</a></li>
+                                <li><a class="dropdown-item" href="/profil/akreditasi.html">Akreditasi</a></li>
+                                <li><a class="dropdown-item" href="/profil/dosen.html">Dosen</a></li>
+                                <li><a class="dropdown-item" href="/profil/tenaga-kependidikan.html">Tenaga
+                                        Kependidikan</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/profil/komputer-dan-jaringan.html">Lab. Komputer
+                                        dan Jaringan</a></li>
+                                <li><a class="dropdown-item" href="/profil/rekayasa-perangkat-lunak.html">Lab.
+                                        Rekayasa Perangkat Lunak</a></li>
+
+                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Akademik
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/akademik/kurikulum.html">Kurikulum</a></li>
+                                <li><a class="dropdown-item" href="/akademik/jadwal-kuliah.html">Jadwal Kuliah</a></li>
+                                <li><a class="dropdown-item" href="/akademik/kalender-akademik.html">Kalender
+                                        Akademik</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Sertifikasi
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/sertifikasi/mikrotik-academy.html">
+                                        Mikrotik Academy</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> Galeri
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/galeri/foto.html">Foto</a></li>
+                                <li><a class="dropdown-item" href="/galeri/video.html">Video</a></li>
+                                <li><a class="dropdown-item" href="/galeri/virtual-tour.html">Virtual Tour</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/kontak.html">Kontak</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main style="padding-top: 65px;">
+        <div class="container">
+            <nav class="breadcrumbd" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item"><a>Profil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Dosen</li>
+                </ol>
+                <hr style="opacity: 15%;">
+            </nav>
+        </div>
+
+        <section class="pt-0 mt-0">
+            <div class="container px-0">
+                <div class="content">
+                    <div class="single-post pt-0">
+                        <div class="post-heading">
+                            <h1>Dosen</h1>
+                        </div>
+                        <div class="text">
+                            <div class="daftar-dosen d-flex row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-0"
+                                style=" justify-content: space-between;">
+
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/fericandra.jpg" alt="">
+                                            <h5 class="card-title">Dr. Feri Candra, S.T., M.T.</h5>
+                                            <p class="card-subtitle mb-2 text-body-secondary">Koordinator Prodi</p>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Institut Sains Dan Teknologi Nasional</li>
+                                                <li>S2-Universitas Indonesia</li>
+                                                <li>S3-Universiti Teknologi Malaysia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Machine Learning</li>
+                                                <li>Computer Vision</li>
+                                                <li>Robotic</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/QjhDRDJEQjAtNjVDMy00NjEyLThERUUtRjU4QzZBMDcyMzRD"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/dahliyusmanto.jpg" alt="">
+                                            <h5 class="card-title">Dr. Dahliyusmanto S.Kom., M.Sc.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Putra Indonesia</li>
+                                                <li>S2-Universiti Teknologi Malaysia</li>
+                                                <li>S3-Universiti Teknologi Malaysia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Computer and Network Security</li>
+                                                <li>Data Mining</li>
+                                                <li>Image Processing</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/OEEzNTc5MkMtMTM1OS00OEFCLTk2OUUtQ0M4NDQzRTQyNkQw"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/irsan ali.jpg" alt="">
+                                            <h5 class="card-title">Dr. Irsan Taufik Ali, S.T., M.T.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Islam Indonesia</li>
+                                                <li>S2-Universitas Gadjah Mada</li>
+                                                <li>S3-Universitas Indonesia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Sistem Informasi</li>
+                                                <li>Internet of Things</li>
+                                                <li>Mechine Learning (Deep Learning)</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/RDMyODczMUEtQjNFMi00RTZCLTg5RTUtMTYzNUU2RDcwMDlG"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/noveri.jpg" alt="">
+                                            <h5 class="card-title">Noveri Lysbetti Marpaung, S.T., M.Sc.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Sumatera Utara</li>
+                                                <li>S2-Newcastle University</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Kendali Komputer</li>
+                                                <li>Wireless Sensor Network</li>
+                                                <li>Artificial Intelligence and Digital Support System</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/RUQ0MTE0OUQtMzQ5OS00NjNDLUJEMzEtQUY2QzA5QUI2MTI3"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/rahyul.jpg" alt="">
+                                            <h5 class="card-title">Rahyul Amri, S.T., M.T.</h5>
+                                            <p class="card-subtitle mb-2 text-body-secondary">Kepada Laboratorium
+                                                Rekayasa
+                                                Perangkat Lunak</p>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Islam Sumatera Utara</li>
+                                                <li>S2-Institut Teknologi Sepuluh Nopember</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Internet of Things</li>
+                                                <li>Microcontroller</li>
+                                                <li>Software Engineering</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/QTA1MDJEMkYtQjczMy00NkZFLUIyRDQtQTQ0OTlGODIwNzk4"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/linna.jpg" alt="">
+                                            <h5 class="card-title">Linna Oktaviana Sari, S.T., M.T.</h5>
+                                            <p class="card-subtitle mb-2 text-body-secondary">Kepala Laboratorium
+                                                Komputer
+                                                dan Jaringan</p>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Pancasila</li>
+                                                <li>S2-Universitas Indonesia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Jaringan Komunikasi</li>
+                                                <li>Telekomunikasi</li>
+                                                <li>Wireless Communication</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/Rjg2QjA3NEUtNjUxNC00ODIwLUIxNjEtREYxQjEzMkU3NTM2"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/salhazan.jpg" alt="">
+                                            <h5 class="card-title">Salhazan Nasution, S.Kom., MIT.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Islam Indonesia</li>
+                                                <li>S2-Universiti Kebangsaan Malaysia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Information System</li>
+                                                <li>Software Engineering</li>
+                                                <li>Usability</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/NEU2OUUzMjgtRTlBNS00NjNDLUI3MjMtQjhDRkMxMjFFN0Qw"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/yudi.jpg" alt="">
+                                            <h5 class="card-title">T. Yudi Hadiwandra, S.Kom., M.Kom.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Gunadarma</li>
+                                                <li>S2-Universitas Gadjah Mada</li>
+                                                <li>S3-Universiti Teknologi Malaysia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Artificial Intelligence</li>
+                                                <li>Computer Vision</li>
+                                                <li>Data Mining</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/MTlGQkIxRkUtODU1RS00Q0JGLUE0M0EtRDJGNjQ5QzJGNDA4"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/rizal.jpg" alt="">
+                                            <h5 class="card-title">Rahmat Rizal Andhi, S.T., M.T.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Pasundan</li>
+                                                <li>S2-Institut Teknologi Bandung</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Animation</li>
+                                                <li>Augmented Reality & Virtual Reality</li>
+                                                <li>Mobile App & Game Development</li>
+                                            </ul>
+                                            <a href="#" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/RjM4QUM1NjQtODc5Qy00QTI1LTgzNzgtMUU0NkFFMjc2Qjk3"
+                                                target="" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/edisusilo.jpg" alt="">
+                                            <h5 class="card-title">Edi Susilo, S.Pd., M.Kom., M.Eng.</h5>
+                                            <p class="card-subtitle mb-2 text-body-secondary">Koordinator Skripsi dan KP
+                                            </p>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Negeri Yogyakarta</li>
+                                                <li>S2-Universitas Amikom Yogyakarta</li>
+                                                <li>S2-Universitas Gadjah Mada</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Software Engineering</li>
+                                                <li>Human-Computer Interaction</li>
+                                                <li>UI/UX</li>
+                                            </ul>
+                                            <a href="https://www.edisusilo.com/" target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/RDFFRjdCOUQtRkM5My00NzlFLTk4REQtMjk1OUMxQUFFMUQy"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/dian.jpg" alt="">
+                                            <h5 class="card-title">Dian Ramadhani, S.T., M.T.</h5>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Islam Negeri Sultan Syarif Kasim</li>
+                                                <li>S2-Institut Teknologi Bandung</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Data Mining</li>
+                                                <li>Data Warehouse</li>
+                                                <li>Business Intelligence</li>
+                                            </ul>
+
+                                            <a href="https://pddikti.kemdikbud.go.id/data_dosen/ODU5RUVDMkQtNDlGOS00OTczLUJCNjItRjJBNkEyQkRFMEVD"
+                                                target="_blank" class="card-link">
+                                                <i class="fa-solid fa-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <img src="/asset/dosen/nasien.jpg" alt="">
+                                            <h5 class="card-title">Dr. Dewi Nasien, S.T., M.Sc.</h5>
+                                            <p class="card-subtitle mb-2 text-body-secondary">Dosen Luar Biasa</p>
+
+                                            <h6>Pendidikan:</h6>
+                                            <ul>
+                                                <li>S1-Universitas Islam Negeri Sultan Syarif Kasim</li>
+                                                <li>S2-Universiti Teknologi Malaysia</li>
+                                                <li>S3-Universiti Teknologi Malaysia</li>
+                                            </ul>
+                                            <h6>Bidang Keahlian:</h6>
+                                            <ul>
+                                                <li>Machine Learning</li>
+                                                <li>Pattern recognition </li>
+                                                <li>Image processing</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-foot d-flex text-center flex-column flex-md-row ">
+                <div class="footer-item">
+                    <h5>Kontak</h5>
+                    <ul>
+                        <li><a>+62 (123)4567899</a></li>
+                        <li><a href="mailto:info@unri.ac.id">info@unri.ac.id</a></li>
+                        <li><a href="mailto:informatika@eng.unri.ac.id">informatika@eng.unri.ac.id</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>Teknik Informatika</h5>
+                    <ul>
+                        <li><a href="/kategori/berita.html">Berita</a></li>
+                        <li><a href="/kategori/prestasi-mahasiswa.html">Prestasi Mahasiswa</a></li>
+                        <li><a href="/kategori/event.html">Event</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h5>Link Terkait</h5>
+                    <ul>
+                        <li><a href="https://iconeei.id/" target="_blank">Konferensi Internasional</a></li>
+                        <li><a href="http://tracer.unri.ac.id/" target="_blank">Tracer Study</a></li>
+                        <li><a href="https://kemahasiswaan.unri.ac.id/news/category/Beasiswa"
+                                target="_blank">Beasiswa</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-foot d-flex flex-column flex-md-row">
+                <div class="footer-item d-flex" style="color: white; align-items: end;">Copyright All Right
+                    Reserved
+                    Unri ©
+                    2023</div>
+
+                <div class="footer-item text-center" style="color: white;">
+                    <h3 style="font-weight: 650;">UNIVERSITAS <br> <span style="font-size: 90%;">RIAU</span></h3>
+                    <img src="/asset/PNG footer logo.png" alt="">
+                </div>
+                <div class="footer-item">
+                    <ul>
+                        <li><a href="https://id-id.facebook.com/unri.ac.id/" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/univ_riau" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/universitas.riau/?hl=id" target="_blank">Instagram</a>
+                        </li>
+                        <li><a href="https://www.youtube.com/c/humasuniversitasriau" target="_blank">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/script/navbar.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

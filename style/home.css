@@ -1,0 +1,471 @@
+section {
+    margin-block: 60px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: block;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.jumbotron .tes .tes-1>h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron img {
+    margin-block: 64px 20px;
+    object-fit: contain;
+    width: 225px;
+}
+
+.jumbotron:before {
+    content: '';
+    position: absolute;
+    background-image: url('/asset/banner/WhatsApp\ Image\ 2023-05-09\ at\ 22.25.562.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* teknik informatika info  */
+section .container .info-text>h2 {
+    font-family: poppins;
+    color: #A90A2B;
+    font-size: 52px;
+    font-weight: 630;
+}
+
+section .container .info-text>h2::after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid #FDCB2C;
+    width: 50%;
+    margin-inline: -40px;
+}
+
+section .container .info-text h2 span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 52px;
+    font-weight: 630;
+}
+
+.container .info-content .info-text {
+    width: 80%;
+}
+
+.container .info-content .info-text p {
+    font-size: 18px;
+}
+
+.container .info-content .info-img {
+    width: 100%;
+}
+
+.container .info-content .info-img img {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    height: 80%;
+}
+
+/* peta map */
+
+.map .peta-map {
+    width: 60%;
+}
+
+.map .peta-text {
+    width: 40%;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    height: 100%;
+    text-align: end;
+    color: rgb(63, 63, 63);
+}
+
+.map .peta-text p span {
+    font-size: 28px;
+    color: #A90A2B;
+    font-weight: 700;
+}
+
+.map .peta-map img {
+    width: 100%;
+}
+
+/* Gambar Fakultas Teknik */
+.fakultas-teknik {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 10px;
+}
+
+.fakultas-teknik>h1 {
+    display: flex;
+    margin: auto;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 92px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fakultas-teknik:before {
+    content: '';
+    position: absolute;
+    background-image: url('/asset/home/teknik.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+/* Artikel Terbaru */
+
+.artikel-content {
+    gap: 4%;
+    justify-content: space-between;
+}
+
+.artikel-content .terbaru {
+    width: 68%;
+}
+
+.artikel-content .berita-event {
+    width: 26%;
+}
+
+/* artikel utama */
+.terbaru>h1 {
+    font-size: 52px;
+    color: #A90A2B;
+    margin-bottom: 30px;
+}
+
+.terbaru h1>span {
+    font-size: 52px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.terbaru h1::after {
+    content: "";
+    display: block;
+    margin: 16px auto 15px -40px;
+    width: 25%;
+    border-bottom: 4px solid #FDCB2C;
+}
+
+.terbaru .artikel-utama .judul-left {
+    background-color: #A90A2B;
+    color: white;
+    width: 50%;
+}
+
+.terbaru .artikel-utama .text-right {
+    background-color: #d4d4d4;
+    padding: 20px;
+    width: 60%;
+}
+
+.terbaru .artikel-utama .judul-left h5 {
+    padding: 10px 20px;
+}
+
+.terbaru .artikel-utama .judul-left a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.terbaru .artikel-utama .text-right a {
+    color: #A90A2B;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.terbaru .artikel-utama .text-right a:hover {
+    text-decoration: underline;
+}
+
+/* artikel-child */
+.artikel-child .artikel-bottom {
+    width: 48%;
+}
+
+.artikel-child .artikel-bottom h5 {
+    padding-block: 10px 0;
+}
+
+.artikel-child .artikel-bottom h5:hover a {
+    filter: contrast(10);
+    text-decoration: underline;
+}
+
+.artikel-child .artikel-bottom h5 a {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.artikel-child .artikel-bottom a img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.artikel-child .artikel-bottom span {
+    color: #A90A2B;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* berita lainnya */
+.berita-event {
+    padding: 20px 30px;
+    background-color: #f3f3f3;
+}
+
+.berita-event .list-berita-event {
+    font-family: poppins;
+}
+
+.berita-event h3 {
+    margin-bottom: 30px;
+    padding-block: 6px 14px;
+    color: #A90A2B;
+    border-bottom: 4px solid #FDCB2C;
+
+}
+
+.berita-event h3 span {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.berita-event .list-berita-event a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.list-berita-event p {
+    padding-top: 4px;
+    font-size: 12px;
+    color: #A90A2B;
+}
+
+.list-berita-event .listed-berita a:hover {
+    color: #A90A2B;
+}
+
+
+/* media screen */
+
+@media (min-width:1200px) {
+    .map .peta-text {
+        font-size: 20px;
+    }
+
+    .map .peta-text p span {
+        font-size: 33px;
+    }
+}
+
+@media (min-width:1400px) {
+
+    .jumbotron {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .jumbotron img {
+        width: 30%;
+    }
+
+    .jumbotron .tes .tes-1>h1 {
+        font-size: 70px;
+    }
+
+    section .container .info-text>h2 {
+        font-size: 70px;
+    }
+
+    section .container .info-text h2>span {
+        font-size: 70px;
+    }
+
+    .container .info-content .info-text p {
+        font-size: 20px;
+    }
+
+    .map .peta-text p span {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .container .info-content .info-text p {
+        font-size: 18px;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .jumbotron img {
+        width: 25%;
+    }
+
+    .jumbotron .tes .tes-1>h1 {
+        font-size: 40px;
+        padding-block: 20px;
+    }
+
+    /* peta map */
+
+    .map .peta-map {
+        width: 100%;
+    }
+
+    .map .peta-text {
+        width: 100%;
+    }
+
+    /* F. Teknik */
+    .fakultas-teknik {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .fakultas-teknik>h1 {
+        font-size: 64px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .jumbotron {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .jumbotron img {
+        width: 25%;
+        margin-top: 64px;
+    }
+
+    .jumbotron .tes .tes-1>h1 {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .container .info-content .info-text {
+        width: 100%;
+    }
+
+    /* F. Teknik */
+    .fakultas-teknik {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .fakultas-teknik>h1 {
+        font-size: 50px;
+    }
+
+    /* artikel */
+
+    .artikel-content .terbaru {
+        width: 100%;
+    }
+
+    .artikel-content .berita-event {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    section .container .info-text>h2 {
+        font-size: 44px;
+    }
+
+    section .container .info-text h2 span {
+        font-size: 44px;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .jumbotron img {
+        width: 20%;
+    }
+
+    .jumbotron .tes>h1 {
+        font-size: 20px;
+    }
+
+    /* F. Teknik */
+    .fakultas-teknik {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .fakultas-teknik>h1 {
+        font-size: 30px;
+    }
+
+    /* artikel content */
+
+    .terbaru .artikel-utama .judul-left {
+        width: 100%;
+    }
+
+    .terbaru .artikel-utama .text-right {
+        width: 100%;
+    }
+
+    .artikel-child .artikel-bottom {
+        width: 100%;
+    }
+}

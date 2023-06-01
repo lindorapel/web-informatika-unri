@@ -1,0 +1,29 @@
+.jumbotron>h1 {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 92px;
+    height: 110%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    height: 405px;
+    position: relative;
+}
+
+.jumbotron:before {
+    content: '';
+    position: absolute;
+    background-image: url('/asset/banner/teknik.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

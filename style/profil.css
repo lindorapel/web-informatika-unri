@@ -1,0 +1,86 @@
+main section {
+    padding-block: 50px 40px;
+}
+
+aside .nav li a {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 12px 0;
+    font-weight: 550;
+}
+
+main .profil .nav li a::before {
+    content: '\f105';
+    line-height: 1;
+    font-family: "FontAwesome";
+    color: #FFBA00;
+    padding-right: 12px;
+    top: 12px;
+    left: 40px;
+}
+
+aside .nav li hr {
+    margin: 0;
+}
+
+section aside {
+    width: 25%;
+}
+
+section .sejarah-content {
+    width: 70%;
+}
+
+
+.breadcrumbd {
+    padding-top: 28px;
+}
+
+.breadcrumbd ol li a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item:hover {
+    color: #A90A2B;
+}
+
+.breadcrumb .active {
+    color: #A90A2B;
+}
+
+.sejarah-content h1 {
+    color: #A90A2B;
+    margin-bottom: 20px;
+}
+
+.sejarah-content h1::after {
+    content: "";
+    display: block;
+    margin-left: -24px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #FFBA00;
+    width: 15%;
+}
+
+.profil .sidebar .nav-item a {
+    font-size: 16px;
+}
+
+.profil .sidebar .nav-item:hover>a {
+    color: #A90A2B;
+}
+
+.nav-item .active {
+    color: #A90A2B;
+}
+
+@media (max-width:767px) {
+    section aside {
+        width: 100%;
+    }
+
+    section .sejarah-content {
+        width: 100%;
+    }
+}
