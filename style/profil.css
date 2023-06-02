@@ -83,4 +83,20 @@ section .sejarah-content {
     section .sejarah-content {
         width: 100%;
     }
+    
+    .hamburger {
+        margin-bottom: 10px;
+    }
+
+    aside .sidebar {
+        display: none;
+    }
+
+    aside .btn:active {
+        display: block;
+    }
+
+    aside .active {
+        display: block;
+    }
 }
