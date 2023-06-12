@@ -35,7 +35,11 @@ This is a college assignment project for the course `Dasar Pemrograman Web` Univ
 
 ### Built With
 
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JS](https://www.w3schools.com/JS/)
 - [Bootstrap](https://getbootstrap.com/)
+
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://id.linkedin.com/in/ravel-erlindo-27606b224
